@@ -9,6 +9,10 @@ import "../styles/kiranRaj.css";
 import FadeIn from "./FadeIn";
 import CustomCursor from "./CustomCursor";
 
+import heroPortrait from "../assets/images/hero-portrait.png";
+import section2Left from "../assets/images/section2-left.png";
+import section2Right from "../assets/images/section2-right.png";
+
 import { motion, useScroll, useTransform } from "framer-motion";
 
 export default function KiranRajPage() {
@@ -51,7 +55,7 @@ export default function KiranRajPage() {
 
           <FadeIn className="kr-hero-card" delay={0.4} direction="left">
             <img
-              src="images/section2-left.png"
+              src={section2Left}
               alt="Kiran Raj performing guitar"
               className="kr-hero-card-img"
             />
@@ -62,7 +66,7 @@ export default function KiranRajPage() {
       {/* SECTION 2 (Page 2) */}
       <section className="kr-section2" id="about">
         <FadeIn className="kr-section2-img kr-section2-img-left" direction="right">
-          <img src="images/hero-portrait.png" alt="Live performance placeholder" />
+          <img src={heroPortrait} alt="Live performance placeholder" />
         </FadeIn>
 
         <FadeIn className="kr-section2-text" delay={0.2}>
@@ -83,7 +87,7 @@ export default function KiranRajPage() {
         </FadeIn>
 
         <FadeIn className="kr-section2-img kr-section2-img-right" direction="left">
-          <img src="images/section2-right.png" alt="Guitar close-up placeholder" />
+          <img src={section2Right} alt="Guitar close-up placeholder" />
         </FadeIn>
       </section>
 
