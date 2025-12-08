@@ -184,7 +184,7 @@ body {
 .kr-hero-bg {
   position: absolute;
   inset: 0;
-  background-image: url("../assets/images/hero-main.png");
+  background-image: url("images/hero-main.png");
   background-size: cover;
   background-position: center;
   filter: brightness(0.8);
